@@ -1,0 +1,240 @@
+.main {
+    text-align: center;
+}
+.main .top{
+    text-align: center;
+    position: relative;
+    padding: 17px 0;
+}
+.main .top .btn_shop {
+    position: absolute;
+    width: 60px;
+    top: 23px;
+    left: 18px;
+}
+.main .top .tit {
+    width: 220px;
+}
+.main .top .btn_list {
+    width: 46px;
+    position: absolute;
+    right: 22px;
+    top: 27px;
+}
+.main .container {
+    position: relative;
+    background-color: #33802f;
+    min-height: 400px;
+}
+.main .container .con_inner{
+
+    position: absolute;
+    background-color: #fff;
+    bottom: 5px;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+}
+
+.main .container .con_inner .roll_banner {
+
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    line-height: 50px;
+    font-weight: 800;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.main .container .con_inner .roll_banner .infinity {
+    width: 42px;
+    vertical-align: middle;
+}
+
+.main .container .con_inner .roll_banner:after{
+    display:inline-block;
+    content : ">";
+    text-align:center;
+    font-size: 20px;
+}
+.main .container .con_inner .coin{
+    border: solid 2px #61ad5e;
+    border-radius: 4px;
+    text-align: center;
+    height: 277px;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    background-color: #e5efe4;
+}
+.main .container .con_inner .coin .greeting{
+    border-bottom: 1px solid #61ad5e;
+    line-height: 70px;
+    font-size: 20px;
+}
+
+
+.main .container .con_inner .coin .coin_r{
+    width: 170px;
+    position: absolute;
+    left: 50%;
+    top: 84px;
+    margin-left: -198px;
+}
+
+.main .container .con_inner .coin .list_pay{
+    margin-left: 47%;
+    overflow: hidden;
+    margin-right: 10%;
+    margin-top: 15px;
+}
+.main .container .con_inner .coin .list_pay li{
+    overflow: hidden;
+}
+
+.main .container .con_inner .coin .list_pay li div{
+    width: 50%;
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.main .container .con_inner .coin .list_pay li {
+    margin-bottom: 4px;
+}
+
+.main .container .con_inner .coin .list_pay li div:nth-child(2){
+    text-align: right;
+    
+}
+.main .container .con_inner .coin .list_pay li.total div:nth-child(1){
+    font-size: 21px;
+    font-weight: bold;
+}
+.main .container .con_inner .coin .list_pay li.total div:nth-child(2){
+    font-size: 25px;
+}
+
+.main .container .con_inner .coin .list_pay li.rbpay div:nth-child(1){
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #33802f;
+    border-radius: 20px;
+    color: #fff;
+}
+.main .container .con_inner .coin .list_pay li.rbpay div:nth-child(2){
+    font-size: 20px;
+}
+.main .container .con_inner .coin .list_pay li.rbpoint div:nth-child(1){
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #203f95;
+    border-radius: 20px;
+    color: #fff;
+}
+.main .container .con_inner .coin .list_pay li.rbpoint div:nth-child(2){
+    font-size: 20px;
+}
+.main .container .con_inner .coin .list_pay li.rbtoken div:nth-child(1){
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #d28c32;
+    border-radius: 20px;
+    color: #fff;
+}
+.main .container .con_inner .coin .list_pay li.rbtoken div:nth-child(2){
+    font-size: 20px;
+}
+.main .container .con_inner .coin .list_pay li.bitcoin div:nth-child(1){
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #77b046;
+    border-radius: 20px;
+    color: #fff;
+}
+.main .container .con_inner .coin .list_pay li.bitcoin div:nth-child(2){
+    font-size: 20px;
+}
+.main .container .con_inner .coin .list_pay li.ethereum div:nth-child(1){
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #4066ce;
+    border-radius: 20px;
+    color: #fff;
+}
+.main .container .con_inner .coin .list_pay li.ethereum div:nth-child(2){
+    font-size: 20px;
+}
+.main .banner_main{
+    height: 170px;
+    margin-top: 20px;
+}
+.main ul.tiles{
+    width: 99%;
+    margin: 46px auto 0;
+}
+.main ul.tiles li{
+    float: left;
+    width: 33%;
+}
+.main ul.tiles li div{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-top: 91px;
+    padding-bottom: 16px;
+    margin: 8px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.main ul.tiles li:nth-child(1) div{
+    background: url(../images/menu_01.png)no-repeat center 25px;
+    background-size: 50px;
+}
+.main ul.tiles li:nth-child(2) div{
+    background: url(../images/menu_02.png)no-repeat center 25px;
+    background-size: 50px;
+}
+.main ul.tiles li:nth-child(3) div{
+    background: url(../images/menu_03.png)no-repeat center 25px;
+    background-size: 50px;
+}
+.main ul.tiles li:nth-child(4) div{
+    background: url(../images/menu_04.png)no-repeat center 25px;
+    background-size: 50px;
+}
+.main ul.tiles li:nth-child(5) div{
+    background: url(../images/menu_05.png)no-repeat center 25px;
+    background-size: 50px;
+}
+.main ul.tiles li:nth-child(6) div{
+    background: url(../images/menu_06.png)no-repeat center 25px;
+    background-size: 50px;
+}
+.main ul.tiles li:nth-child(7) div{
+    background: url(../images/menu_07.png)no-repeat center 25px;
+    background-size: 50px;
+}
+.main ul.tiles li:nth-child(8) div{
+    background: url(../images/menu_08.png)no-repeat center 25px;
+    background-size: 50px;
+}
+.main ul.tiles li:nth-child(9) div{
+    background: url(../images/menu_09.png)no-repeat center 25px;
+    background-size: 50px;
+}
+.main ul.tiles li:nth-child(10) div{
+    background: url(../images/menu_10.png)no-repeat center 25px;
+    background-size: 50px;
+}
+.main ul.tiles li:nth-child(11) div{
+    background: url(../images/menu_11.png)no-repeat center 25px;
+    background-size: 50px;
+}
+.main ul.tiles li:nth-child(12) div{
+    background: url(../images/menu_12.png)no-repeat center 25px;
+    background-size: 50px;
+}

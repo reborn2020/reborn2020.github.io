@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>reborn</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/login.css">
+    <!--[if lt IE 9]>
+    <script>
+        document.createElement("header" );
+        document.createElement("footer" );
+        document.createElement("section"); 
+        document.createElement("aside"  );
+        document.createElement("nav"    );
+        document.createElement("article"); 
+        document.createElement("hgroup" ); 
+        document.createElement("time"   );
+    </script>
+    <![endif]-->
+    <script Language="javascript">
+
+    </script>
+</head>
+
+<body class="login">
+    <div class="container">
+        <section>
+            <h2><img src="images/logo_reborn.png" alt="reborn_logo" /></h2>
+            <form name='logininfo' action="#">
+                <fieldset>
+                    <ul>
+                        <li>
+                            <label for="userid"><img src="images/img_id.png" alt="login" /></label>
+                            <input type="text" id="userid" placeholder="아이디" maxlength="8" required />
+                        </li>
+                        <li>
+                            <label for="userpw"><img src="images/img_pw.png" alt="pw" /></label>
+                            <input type="password" id="userpw" placeholder="비밀번호" maxlength="12" required />
+                        </li>
+                    </ul>
+                    <div class="auto_login">
+                        <input type="checkbox" id="auto_log" />
+                        <label for="auto_log" class="check"></label>
+                        <label for="auto_log" class="text">자동로그인</label>
+                    </div>
+                    <input type="submit" id="loginrun" value="로그인" />
+                </fieldset>
+            </form>
+            <a href="#">신규회원 가입</a>
+        </section>
+        <div class='banner'>
+            <img src="images/banner1.png" alt="배너1" />
+            <img src="images/banner2.png" alt="배너2" />
+            <img src="images/banner3.png" alt="배너3" />
+        </div>
+    </div>
+</body>
+
+</html>

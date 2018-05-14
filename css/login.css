@@ -1,0 +1,49 @@
+html, body { height:100%; overflow:hidden }
+
+.login {background-color: #33802f;}
+
+.login .container{margin: 5px; background-color: #fff;position: absolute;
+    background-color: #fff;
+    bottom: 5px;
+    top: 5px;
+    left: 5px;
+    right: 5px;}
+
+.login section{max-width:350px; margin:0 auto; margin-top: 40%;}
+.login section h2{width:82%; margin:0 auto 6%}
+.login section h2 img{width:100%}
+.login section fieldset{width:78%; margin:0 auto 8%}
+.login section fieldset ul{border:1px solid #33802f; border-radius:3px; box-sizing:border-box; margin-bottom:3%; background:#fff}
+.login section fieldset ul li{height:40px; line-height:40px;}
+.login section fieldset ul li:nth-child(1){border-bottom:1px solid #33802f;}
+.login section fieldset ul li label{width:16.3%; display:inline-block; height:40px; box-sizing:border-box; padding:12px 0}
+.login section fieldset ul li label img{width:32%; display:block; margin:0 auto}
+.login section fieldset ul li input{border:0; height:40px; line-height:40px; vertical-align:top; outline:none; font-size:1em; color:#282828; font-weight:400;width:70%;}
+.login section fieldset ul li input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size:1em; font-weight:400; color:#bbbbbb
+}
+.login section fieldset ul li input::-moz-placeholder { /* Firefox 19+ */
+  font-size:1em; font-weight:400; color:#bbbbbb
+}
+.login section fieldset ul li input:-ms-input-placeholder { /* IE 10+ */
+  font-size:1em; font-weight:400; color:#bbbbbb
+}
+.login section fieldset ul li input:-moz-placeholder { /* Firefox 18- */
+  font-size:1em; font-weight:400; color:#bbbbbb
+}
+.login section fieldset .auto_login{margin-bottom:3%;}
+.login section fieldset .auto_login:after{content:''; visibility:hidden; display:block; clear:both}
+.login section fieldset .auto_login input{display:none}
+.login section fieldset .auto_login label{float:left; display:block}
+.login section fieldset .auto_login .check{width:20px; height:20px; border-radius:3px; border:2px solid #33802f; box-sizing:border-box}
+.login section fieldset .auto_login input[type="checkbox"]:checked + .check{background:url(../images/bg_chk.png)no-repeat center; background-size:85%}
+.login section fieldset .auto_login .text{line-height:20px; height:20px; font-size:1em; font-weight:500; color:#33802f; margin-left:5px}
+.login section fieldset input[type="submit"]{-webkit-appearance: none; background:#33802f; border:0; width:100%; border-radius:3px; height:40px; line-height:40px; font-size:1em; font-weight:500; color:#fff}
+.login section a{display:block; text-align:center; font-size:1em; font-weight:500; color:#33802f}
+
+.login .banner {position: absolute;
+    width: 80%;
+    margin-left: -40%;
+    left: 50%;
+    bottom: 10%;}
+.login .banner img {width:32%;}
