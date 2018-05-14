@@ -5,6 +5,7 @@
     text-align: center;
     position: relative;
     padding: 17px 0;
+    height: 60px;
 }
 .main .top .btn_shop {
     position: absolute;
@@ -13,7 +14,7 @@
     left: 18px;
 }
 .main .top .tit {
-    width: 220px;
+    width: 46%;
 }
 .main .top .btn_list {
     width: 46px;
@@ -78,11 +79,12 @@
 
 
 .main .container .con_inner .coin .coin_r{
-    width: 170px;
+    width: 40%;
     position: absolute;
     left: 50%;
-    top: 84px;
-    margin-left: -198px;
+    top: 87px;
+    margin-left: -47%;
+    max-width: 171px;
 }
 
 .main .container .con_inner .coin .list_pay{
