@@ -5,7 +5,7 @@
     text-align: center;
     position: relative;
     padding: 17px 0;
-    height: 60px;
+    line-height: 60px;
 }
 .main .top .btn_shop {
     position: absolute;
@@ -15,6 +15,8 @@
 }
 .main .top .tit {
     width: 46%;
+    vertical-align: middle;
+    max-width: 214px;
 }
 .main .top .btn_list {
     width: 46px;
@@ -25,7 +27,7 @@
 .main .container {
     position: relative;
     background-color: #33802f;
-    min-height: 400px;
+    min-height: 360px;
 }
 .main .container .con_inner{
 
@@ -171,8 +173,8 @@
     font-size: 20px;
 }
 .main .banner_main{
-    height: 170px;
     margin-top: 20px;
+    width: 100%;
 }
 .main ul.tiles{
     width: 99%;

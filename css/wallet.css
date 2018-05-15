@@ -1,0 +1,166 @@
+.wallet {
+    text-align: center;
+}
+.wallet .top{
+    text-align: left;
+    position: relative;
+    line-height: 55px;
+    padding-left: 12px;
+}
+
+.wallet .top .tit {
+    width: 90px;
+    vertical-align: middle;
+}
+
+.wallet .container {
+    position: relative;
+    background-color: #33802f;
+    min-height: 360px;
+}
+.wallet{
+    background-color: #fff;
+}
+.wallet .coin{
+    border: solid 2px #77b046;
+    border-radius: 4px;
+    text-align: center;
+    height: 170px;
+    position: relative;
+    background-color: #e5efe4;
+    margin: 0 8px;
+}
+.wallet .coin .coin_r{
+    width: 140px;
+    position: absolute;
+    left: 50%;
+    top: 16px;
+    margin-left: -162px;
+}
+
+.wallet .coin .list_pay{
+    margin-left: 47%;
+    overflow: hidden;
+    margin-right: 10%;
+    margin-top: 15px;
+}
+.wallet .coin .list_pay li{
+    overflow: hidden;
+}
+
+.wallet .coin .list_pay li div{
+    width: 50%;
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.wallet .coin .list_pay li {
+    margin-bottom: 4px;
+    line-height: 18px;
+}
+
+.wallet .coin .list_pay li div:nth-child(2){
+    text-align: right;
+    
+}
+.wallet .coin .list_pay li.total div:nth-child(1){
+    font-size: 16px;
+    font-weight: bold;
+}
+.wallet .coin .list_pay li.total div:nth-child(2){
+    font-size: 20px;
+}
+
+.wallet .coin .list_pay li.rbpay div:nth-child(1){
+    font-size: 12px;
+    background-color: #33802f;
+    border-radius: 20px;
+    color: #fff;
+}
+.wallet .coin .list_pay li.rbpay div:nth-child(2){
+    font-size: 16px;
+}
+.wallet .coin .list_pay li.rbpoint div:nth-child(1){
+    font-size: 12px;
+    background-color: #203f95;
+    border-radius: 20px;
+    color: #fff;
+}
+.wallet .coin .list_pay li.rbpoint div:nth-child(2){
+    font-size: 16px;
+}
+.wallet .coin .list_pay li.rbtoken div:nth-child(1){
+    font-size: 12px;
+    background-color: #d28c32;
+    border-radius: 20px;
+    color: #fff;
+}
+.wallet .coin .list_pay li.rbtoken div:nth-child(2){
+    font-size: 16px;
+}
+.wallet .coin .list_pay li.bitcoin div:nth-child(1){
+    font-size: 12px;
+    background-color: #77b046;
+    border-radius: 20px;
+    color: #fff;
+}
+.wallet .coin .list_pay li.bitcoin div:nth-child(2){
+    font-size: 16px;
+}
+.wallet .coin .list_pay li.ethereum div:nth-child(1){
+    font-size: 12px;
+    background-color: #4066ce;
+    border-radius: 20px;
+    color: #fff;
+}
+.wallet .coin .list_pay li.ethereum div:nth-child(2){
+    font-size: 16px;
+}
+.wallet .line_top {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 3px;
+    background-color: #33802f;
+}
+.wallet .line_right {
+    position: fixed;
+    right: 0px;
+    width: 3px;
+    height: 100%;
+    background-color: #33802f;
+    top: 0px;
+}
+.wallet .line_left {
+    position: fixed;
+    left: 0px;
+    width: 3px;
+    height: 100%;
+    background-color: #33802f;
+    top: 0px;
+}
+.wallet .line_bottom {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 3px;
+    background-color: #33802f;
+}
+
+ul.list_coin li{
+    border: solid 2px #77b046;
+    border-radius: 2px;
+    margin: 8px;
+    text-align: left;
+    font-size: 20px;
+    padding: 4px;
+    position: relative;
+    height: 60px;
+}
+ul.list_coin li div{
+    font-weight: bold;
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+}
