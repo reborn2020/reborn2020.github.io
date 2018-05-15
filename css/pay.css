@@ -1,0 +1,125 @@
+.pay {
+    text-align: center;
+}
+.pay .top{
+    text-align: left;
+    position: relative;
+    line-height: 55px;
+    padding-left: 12px;
+}
+
+.pay .top .tit {
+    width: 90px;
+    vertical-align: middle;
+}
+
+.pay .container {
+    position: relative;
+    background-color: #33802f;
+    min-height: 360px;
+}
+.pay{
+    background-color: #fff;
+}
+
+.pay .line_top {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 3px;
+    background-color: #33802f;
+}
+.pay .line_right {
+    position: fixed;
+    right: 0px;
+    width: 3px;
+    height: 100%;
+    background-color: #33802f;
+    top: 0px;
+}
+.pay .line_left {
+    position: fixed;
+    left: 0px;
+    width: 3px;
+    height: 100%;
+    background-color: #33802f;
+    top: 0px;
+}
+.pay .line_bottom {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 3px;
+    background-color: #33802f;
+}
+.pay .money {
+    border: solid 2px #77b046;
+    border-radius: 1px;
+    margin: 0 8px;
+}
+.pay .money .amt {
+    border-bottom: solid 1px #77b046;
+    text-align: left;
+    font-size: 20px;
+    padding: 4px;
+    position: relative;
+    height: 60px;
+    margin: 0 10px;
+}
+.pay .money .amt div{
+    font-weight: bold;
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+}
+.pay .money .btns {
+    overflow: hidden;
+}
+.pay .money .btns .in {
+    float: left;
+    width: 50%;
+    line-height: 40px;
+}
+.pay .money .btns .out {
+    float: left;
+    width: 50%;
+    line-height: 40px;
+    position: relative;
+}
+.pay .money .btns .out line{
+    position: absolute;
+    left:0;
+    top: 0;
+    height: 40px;
+    width: 1px;
+    background-color: #77b046;
+}
+.pay .list_tit {
+    text-align: left;
+    padding: 20px;
+    line-height: 30px;
+}
+.pay .list_tit select{
+    float: right;
+}
+.pay .list_io li{
+    text-align: left;
+    border-top: solid 1px #77b046;
+}
+.pay .list_io li > div{
+    line-height: 20px;
+    padding: 8px 20px 4px 20px;
+}
+
+.pay .list_io li > div:nth-child(1) > div{
+    float: right;
+    color: #555;
+}
+.pay .list_io li.out > div:nth-child(1) {
+    color: red;
+    font-weight: bold;
+}
+.pay .list_io li.in > div:nth-child(1) {
+    color: cornflowerblue;
+    font-weight: bold;
+}
