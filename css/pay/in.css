@@ -1,0 +1,33 @@
+.pay {
+    text-align: center;
+}
+
+.pay .top {
+    text-align: left;
+    position: relative;
+    line-height: 55px;
+    padding-left: 12px;
+}
+
+.pay .top .tit {
+    width: 90px;
+    vertical-align: middle;
+}
+
+.pay .coin {
+    border: solid 2px #77b046;
+    border-radius: 2px;
+    margin: 8px;
+    text-align: left;
+    font-size: 20px;
+    padding: 4px;
+    position: relative;
+    height: 60px;
+}
+
+.pay .coin span {
+    font-weight: bold;
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+}
