@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
     <title>reborn</title>
     <link rel="stylesheet" href="../css/common.css">
-    <link rel="stylesheet" href="../css/rbe/in.css">
+    <link rel="stylesheet" href="../css/rbe/out.css">
     <!--[if lt IE 9]>
     <script>
         document.createElement("header" );
@@ -29,18 +29,12 @@
         <img class="tit" src="../images/logo_text.png" />
     </div>
     <div class="coin">
-        리본에너지 블록<span>1,444,353</span>
+        리본에너지블록<span>1,444,353</span>
     </div>
     <div class="desc">
-        회원님에게 할당된 아래 주소로 리본에너지블록()
+        출금 요청시 등록된 휴대폰 인증 후 요청됩니다.
     </div>
     <div class="rb1">
-        <img class="qr" src="../images/qr.png" />
-        <p class="key">3RF354TGD3324532FDSSDFEFSDF</p>
-        <input type="button" class="btnOut" value="주소복사하기">
-    </div>
-    <div class="rb2">
-        <div class="tit">입금확인 요청내역</div>
         <table>
             <colgroup>
                 <col style="width: 50%;">
@@ -48,18 +42,51 @@
             </colgroup>
             <tbody>
                 <tr>
-                    <th>입금자명</th>
-                    <td><input type="text"/></td>
+                    <th>휴대폰 번호</th>
+                    <td>000-0000-000</td>
                 </tr>
                 <tr>
-                    <th>입금요청 RBE</th>
+                    <th>SMS인증요청</th>
                     <td>
-                        <input type="text"/>
+                        <input type="button" value="전송">
+                        <span>55초</span>
                     </td>
                 </tr>
                 <tr>
-                    <th>연락처</th>
+                    <th>인증번호 입력</th>
                     <td>
+                        <input type="number"/>
+                        <input type="button" value="확인">
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2">인증이 성공하였습니다</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="rb2">
+        <table>
+            <colgroup>
+                <col style="width: 50%;">
+                <col style="width: 50%;">
+            </colgroup>
+            <tbody>
+                <tr>
+                    <th>출금 가능</th>
+                    <td><input type="text"/> RBE</td>
+                </tr>
+                <tr>
+                    <th>출금요청 수량</th>
+                    <td>
+                        <input type="text"/> RBE
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2">출금요청지갑주소</th>
+                </tr>
+                <tr>
+                    <td colspan="2">
                         <input type="text"/>
                     </td>
                 </tr>
@@ -67,7 +94,7 @@
         </table>
     </div>
     <div class="rb3">
-        <input type="button" class="btnOut" value="입금 확인요청">
+        <input type="button" class="btnOut" value="출금요청">
         <input type="button" class="btnCancel" value="취소">
     </div>
     
