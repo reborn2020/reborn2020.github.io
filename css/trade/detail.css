@@ -1,20 +1,36 @@
 .pay {
     text-align: center;
-    background-color: #fff;
 }
 .pay .top{
     text-align: left;
     position: relative;
     line-height: 55px;
     padding-left: 12px;
+    margin-bottom: 10px;
 }
-.pay .container{
-    padding: 10px;
-}
+
 .pay .top .tit {
     width: 90px;
     vertical-align: middle;
+   
 }
+.pay .top .tit_txt {
+    border: solid 2px #77b046;
+    float: right;
+    line-height: 40px;
+    font-size: 23px;
+    margin: 10px 17px 0 0;
+    padding: 0 10px;
+}
+.pay .container {
+    position: relative;
+    background-color: #33802f;
+    min-height: 360px;
+}
+.pay{
+    background-color: #fff;
+}
+
 .pay .line_top {
     position: fixed;
     top: 0px;
@@ -45,23 +61,68 @@
     height: 3px;
     background-color: #33802f;
 }
-.pay p.title {
+.pay .money {
+    border: solid 2px #77b046;
+    border-radius: 1px;
+    margin: 0 8px;
+}
+.pay .money .amt {
+    border-bottom: solid 1px #77b046;
     text-align: left;
-    margin-bottom: 10px;
-    line-height: 40px;
-    font-size: 16px;
+    font-size: 20px;
+    padding: 4px;
+    position: relative;
+    height: 60px;
+    margin: 0 10px;
 }
-.pay img {
-    width: 100%;
+.pay .money .amt div{
+    font-weight: bold;
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
 }
-.pay p.content {
-    width: 100%;
+.pay .money .amt.rbe {
+    border-bottom: 0;
+}
+.pay .money .amt div:after{
+    content: ' PAY'
+}
+.pay .money .amt.rbe div:after{
+    content: ' RBE'
+}
+
+.pay .list_tit {
     text-align: left;
-    line-height: 40px;
-    margin-top: 10px;
+    padding: 20px;
+    line-height: 30px;
 }
-.pay p.writer {
-    text-align: right;
-    line-height: 40px;
-    padding-right: 20px;
+.pay .list_tit select{
+    float: right;
+}
+.pay .list_io li{
+    text-align: left;
+    border-top: solid 1px #77b046;
+}
+.pay .list_io li > div{
+    line-height: 20px;
+    padding: 8px 20px 4px 20px;
+}
+
+.pay .list_io li > div:nth-child(1) > div{
+    float: right;
+    color: #555;
+}
+.pay .list_io li.out > div:nth-child(1) {
+    color: red;
+    font-weight: bold;
+}
+.pay .list_io li.in > div:nth-child(1) {
+    color: cornflowerblue;
+    font-weight: bold;
+}
+.pay .list_io li.in > div:nth-child(1) > div:after{
+    content: ' RBE';
+}
+.pay .list_io li.out > div:nth-child(1) > div:after{
+    content: ' PAY';
 }

@@ -1,35 +1,6 @@
 .pay {
     text-align: center;
 }
-.pay .top{
-    text-align: left;
-    position: relative;
-    line-height: 55px;
-    padding-left: 12px;
-}
-
-.pay .top .tit {
-    width: 90px;
-    vertical-align: middle;
-}
-.pay .top .event {
-    border: solid 2px #77b046;
-    float: right;
-    line-height: 40px;
-    font-size: 23px;
-    margin: 10px 45px 0 0;
-    padding: 0 10px;
-    
-}
-
-.pay .container {
-    position: relative;
-    background-color: #33802f;
-    min-height: 360px;
-}
-.pay{
-    background-color: #fff;
-}
 
 .pay .line_top {
     position: fixed;
@@ -61,21 +32,96 @@
     height: 3px;
     background-color: #33802f;
 }
-.pay .list_io{
-    margin: 10px 10px 0;
-}
-.pay .list_io li{
+.pay .top {
     text-align: left;
-    border-top: solid 1px #77b046;
-}
-.pay .list_io li p{
-    text-align: left;
-    padding: 0 10px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-.pay .list_io li img{
-    width: 100%;
+    position: relative;
+    line-height: 55px;
+    padding-left: 12px;
     margin-bottom: 10px;
+}
+
+.pay .top .tit {
+    width: 90px;
+    vertical-align: middle;
+}
+.pay .top .trade {
+    border: solid 2px #77b046;
+    float: right;
+    line-height: 40px;
+    font-size: 23px;
+    margin: 10px 17px 0 0;
+    padding: 0 10px;
+}
+.pay .rb1 {
+    border-top: solid 1px #77b046;
+    padding: 15px;
+}
+.pay .rb1 .coin {
+    border: solid 2px #77b046;
+    border-radius: 2px;
+    text-align: left;
+    font-size: 20px;
+    padding: 4px;
+    position: relative;
+    height: 60px;
+}
+.pay .rb1 .coin span {
+    font-weight: bold;
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+}
+.pay .rb1 .coin span:after {
+    content: ' PAY'
+}
+.pay .rb1 .coin span.rbe:after {
+    content: ' RBE'
+}
+.pay .rb1 .coin2 {
+    border: solid 2px #77b046;
+    border-radius: 2px;
+    text-align: left;
+    font-size: 20px;
+    padding: 4px;
+    position: relative;
+    margin: 10px 0 15px;
+}
+.pay .rb1 .coin2 p{
+    line-height: 21px;
+}
+.pay .rb1 .coin2 p:nth-child(2){
+    text-align: right;
+}
+.pay .rb1 .coin2 p:nth-child(2):after{
+    content: ' PAY';
+}
+.pay .rb1 .coin2 p.rbe:nth-child(2):after{
+    content: ' RBE';
+}
+.pay .rb1 .coin2 p:nth-child(4){
+    text-align: right;
+}
+.pay .rb1 .coin2 p:nth-child(4):after{
+    content: ' RBE';
+}
+.pay .rb1 .coin2 p.pay:nth-child(4):after{
+    content: ' PAY';
+}
+.pay .rb1 .coin2 input[type=number]{
+    margin-top: -6px;
+    width: 80px;
+    text-align: right;
+}    
+.pay .rb1 input.trade{
+    width: 90px;
+    font-size: 15px;
+}
+.pay .rb1 input.hist{
+    width: 90px;
+    font-size: 15px;
+}
+.pay .rb1 input.cancel{
+    width: 90px;
+    font-size: 15px;
+    color: red;
 }
